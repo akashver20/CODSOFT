@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>akash Verma</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+    <style>
+       body
+       {
+        background-image: url(bg.jpg );
+        background-size: cover;
+        /* background-color: rgb(25, 3, 112); */
+       }
+       
+        #nav
+        {
+            height: 750px;
+            width:14%;
+            background-color: black;
+        }
+        .nav-link
+        {
+            font-size: 25px;
+        }
+        .tab-content
+        {
+            
+        }
+        #element{
+            color: rgb(70, 251, 9);
+            font-family:copperplate Gothic;
+            font-size: 60px;
+            font-weight:100;
+            margin-left: 150px;
+        }
+        .a1
+        {
+          color: rgb(247, 158, 16);
+          text-decoration: none;
+        }
+        hr
+        {
+          height: 10px;
+        }
+
+    </style>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <script>
+      function change_bg()
+      {
+        document.body.style.backgroundImage = "url('bg1.jpg')";
+
+      }
+      function orig_bg()
+      {
+        document.body.style.backgroundImage = "url('bg.jpg')";
+
+      }
+    </script>
+    
+</head>
+<body>
+   <div class="d-flex align-items-start " id="contain">
+    
+    <div class="nav flex-column nav-pills " id="nav" role="tablist" aria-orientation="vertical">
+      <img src="profile_pic.jpg" class="rounded-circle img-thumbnail img-fluid" style="height: 8%; width:36%; margin-left: 65px;">
+      <div class="a  mt-0" style="color: rgb(245, 247, 243); font-size: 19px; margin-left: 55px;"> Akash Verma</div>
+      <button class="nav-link active pt-2" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true" onclick="orig_bg()">Home</button>
+      <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" onclick="change_bg()">Profile</button>
+      <button class="nav-link" id="v-pills-resume-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false" onclick="change_bg()">resume</button>
+      <button class="nav-link" id="v-pills-contactme-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false" onclick="change_bg()">contact me</button>
+      <button class="nav-link" id="v-pills-projects-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false" onclick="change_bg()">projects</button>
+    </div>
+
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    
+    <div class="tab-content" id="v-pills-tabContent" >
+        
+      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+        <div class="container">
+            <br><br><br><br><br>
+            <div class="row">
+                <div class="col">
+                    <span id="element"> </span>
+
+                </div>
+            </div>
+            <div class="row">
+                <p style="color: aliceblue; font-size: 60px;padding-left: 300px; font-family: copperplate Gothic;">I'm Akash Verma</p>
+            </div>
+            <div class="row">
+                <P style="color: rgb(232, 160, 26); font-size: 40px;padding-left: 300px;">I'm a Web Devoloper</P>
+            </div>
+            <br>
+            <div class="row" style="padding-left: 300px;">
+                
+                <button type="button" class="btn btn-outline-primary" style="color: aliceblue; font-family: copperplate Gothic; width: 150px; height: 50px;">get in touch</button>
+                <button type="button" class="btn btn-outline-primary" style="color: aliceblue; font-family: copperplate Gothic; width: 150px; height: 50px; margin-left: 100px;">view profile</button>
+
+            </div>
+        </div>
+
+      </div>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+      </div>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+      <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-resume-tab" tabindex="0">...</div>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-contactme-tab" tabindex="0">
+        <div class="container-fluid " style="padding-left: 200px; padding-top: 200px;">
+          <div class="row">
+            <div class="col border-end" style="border-right: 2px; font-size: 80px; color: aliceblue; font-family: OCR A EXTENDED;">
+              <p> CONTACT </p>             
+              <P style="margin-left: 220PX;">  ME</p>
+            </div>
+
+            <div class="col" style="color: rgb(247, 158, 16);">
+           <p style="margin-left: 50px;">
+            <img src="tele.jpg" height="20px" width="20px">
+            <a href="tel:7000467687" class="a1"> 7000467687</a><br>
+            <img src="mail.png" height="20px" width="20px">
+
+           <a href="mailto: akash.verma22@pccoepune.org" class="a1"> akash.verma22@pccoepune.org</a><br>
+            <img src="location.png" height="20px" width="20px">
+
+            Akurdi, Pune, Maharashtra</p>
+            <br>
+            <br>
+            <table width="95%" style="color: chartreuse;">
+              <tr>
+                <td style='width:33%'><hr/></td>
+                <td style='width:33%'><h1 align="center">OR</h1></td>
+                <td style='width:33%'><hr/></td>
+              </tr>
+            </table>
+            <div class="container-fluid mt-5" style="width: 400px;">
+              <div class="row">
+                <div class="col-3">
+                  <a href="https://github.com/akashver20"><img src="github.png" height="50px" width="50px"></a>
+                </div>
+                <div class="col-3">
+                  <a href="https://www.linkedin.com/in/akash-verma-30109427b/"><img src="linkedin.jpg" height="50px" width="50px"></a>
+
+                </div>
+                <div class="col-3">
+                  <a href="https://www.instagram.com/akash_v20/"><img src="instagram.png" height="60px" width="60px" ></a>
+
+                </div>
+                <div class="col-3">
+                  <a href="https://www.facebook.com/A.verma.45/"><img src="fb.png" height="50px" width="80px"></a>
+
+                </div>
+              </div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-projects-tab" tabindex="0">...</div>
+    </div>
+  </div>
+
+  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['hello world!'],
+      typeSpeed: 100,
+    });
+  </script>
+</body>
+</html>
